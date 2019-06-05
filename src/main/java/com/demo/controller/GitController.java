@@ -11,6 +11,7 @@ public class GitController {
     @ResponseBody
     @RequestMapping("hello")
     public String hello(){
+        System.out.println("hello github");
         return "hello";
     }
 
