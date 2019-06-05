@@ -12,7 +12,8 @@ public class GitController {
     @RequestMapping("hello")
     public String hello(){
         System.out.println("hello github");
-        system.out.println("this is a apple");
+        System.out.println("this is a apple");
+        System.out.println("this is a dev");
         return "hello";
     }
 
