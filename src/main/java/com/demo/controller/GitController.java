@@ -13,6 +13,7 @@ public class GitController {
     public String hello(){
         System.out.println("hello github");
         System.out.println("this is a apple");
+        System.out.println("this is a dev");
         return "hello";
     }
 
